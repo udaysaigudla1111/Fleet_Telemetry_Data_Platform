@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# CDK build output
+cdk.out/
+cdk.context.json
+
+# Secrets / local config
+.env
+.env.*
+*.pem
+
+# Local data (raw CSVs live in S3, not git)
+data/
+
+# Node (CDK CLI, later the dashboard)
+node_modules/
